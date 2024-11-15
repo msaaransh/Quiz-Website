@@ -1,0 +1,81 @@
+{% extends "MainApp/Quiz_layout.html" %}
+{% block title %}
+profile
+{% endblock %}
+{% block content %}
+<div class="main-content">
+    <div class="profile-header">
+      <div class="profile-card">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/219/219970.png"
+          alt="User Photo"
+        />
+        <div class="profile-details">
+          <h3>John Doe</h3>
+          <p>DOB: 12.04.1995 (29)</p>
+          <p>Email: johndoe@email.com</p>
+          <p>Location: 456 Elm Street, Los Angeles</p>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat-item">
+          <h4>Quizzes Taken</h4>
+          <p>56</p>
+        </div>
+        <div class="stat-item">
+          <h4>Total Score</h4>
+          <p>3421</p>
+        </div>
+        <div class="stat-item">
+          <h4>Average Score</h4>
+          <p>61</p>
+        </div>
+      </div>
+    </div>
+    <div class="quiz-list">
+      <h3>Past Quizzes</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Quiz Name</th>
+            <th>Score</th>
+            <th>Max Score</th>
+            <th>Time Taken</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>25.09.2023</td>
+            <td>General Knowledge</td>
+            <td>80</td>
+            <td>100</td>
+            <td>10 min</td>
+          </tr>
+          <tr>
+            <td>22.09.2023</td>
+            <td>Science Quiz</td>
+            <td>90</td>
+            <td>100</td>
+            <td>15 min</td>
+          </tr>
+          <tr>
+            <td>20.09.2023</td>
+            <td>History Quiz</td>
+            <td>75</td>
+            <td>100</td>
+            <td>12 min</td>
+          </tr>
+          <tr>
+            <td>18.09.2023</td>
+            <td>Math Quiz</td>
+            <td>85</td>
+            <td>100</td>
+            <td>8 min</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "MainApp/Quiz_layout.html" %}
+{% block title %}
+submit
+{% endblock %}
+{% block content %}
+<form>
+    <p>Are you sure you want to submit the quiz?</p>
+    <input type="submit" value="Submit Quiz" onclick="return confirm('Are you sure you want to submit the quiz?')">
+</form>
+{% endblock %}

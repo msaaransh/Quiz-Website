@@ -1,0 +1,15 @@
+{% extends "MainApp/Quiz_layout.html" %}
+{% block title %}
+result
+{% endblock %}
+{% block content %}
+<div class="result-container">
+    <h1>Quiz Result</h1>
+    <p>here score will be shown.</p>
+    <div class="result-details">
+      <p>Correct answers: <span id="correct-answers"></span></p>
+      <p>Incorrect answers: <span id="incorrect-answers"></span></p>
+    </div>
+    <button id="retry-button">Retry Quiz</button>
+  </div>
+{% endblock %}

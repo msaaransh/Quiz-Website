@@ -1,0 +1,139 @@
+{% extends "MainApp/Quiz_layout.html" %}
+{% block title %}
+all_quiz
+{% endblock %}
+{% block content %}
+<h1 class="display-4 text-center my-5">All Quizzes</h1>
+
+    <div class="container">
+      <div class="d-flex">
+        <a href="#" class="btn btn-light me-2">All Quiz</a>
+        <a href="#" class="btn btn-light me-2">Front End Enginnering</a>
+        <a href="#" class="btn btn-light me-2">Python</a>
+        <a href="#" class="btn btn-light me-2">Javascript</a>
+      </div>
+    </div>
+
+    <form class="container d-flex my-4" role="search">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+      <a href="#" type="submit" class="btn btn-primary ms-2">Search</a>
+    </form>
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h4>HTML</h4>
+              <p class="card-text">Total Questions - 10</p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural....
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="./quiz.html"
+                    type="button"
+                    class="btn btn-sm btn-outline-success"
+                    >Start Quiz</a
+                  >
+                </div>
+                <small class="text-body-secondary">2 weeks ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h4>CSS</h4>
+              <p class="card-text">Total Questions - 10</p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural....
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success">
+                    Start Quiz
+                  </button>
+                </div>
+                <small class="text-body-secondary">3 weeks ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h4>Django</h4>
+              <p class="card-text">Total Questions - 10</p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural....
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success">
+                    Start Quiz
+                  </button>
+                </div>
+                <small class="text-body-secondary">3 weeks ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h4>FAST API</h4>
+              <p class="card-text">Total Questions - 10</p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural....
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success">
+                    <a
+                      href="./quiz.html"
+                      type="button"
+                      class="btn btn-sm btn-outline-success"
+                      >Start Quiz</a
+                    >
+                  </button>
+                </div>
+                <small class="text-body-secondary">3 weeks ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h4>Flex</h4>
+              <p class="card-text">Total Questions - 10</p>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural....
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-success">
+                    <a
+                      href="./quiz.html"
+                      type="button"
+                      class="btn btn-sm btn-outline-success"
+                      >Start Quiz</a
+                    >
+                  </button>
+                </div>
+                <small class="text-body-secondary">3 weeks ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
